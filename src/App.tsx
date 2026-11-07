@@ -571,8 +571,7 @@ function App() {
       <div className="app-shell">
         <header className="topbar">
           <a className="brand" href="/" aria-label="Failure Folks Academy home" onClick={(event) => { event.preventDefault(); navigate('estimator') }}>
-            <span className="brand-mark">FF</span>
-            <span><strong>Failure Folks</strong><small>Academy</small></span>
+            <img className="brand-logo" src="/brand/failure-folks-academy.png" alt="Failure Folks Academy, Training, Consulting, Technology Solutions" />
           </a>
           <button className="ghost-button" onClick={() => navigate('estimator')}><ArrowRight data-icon="inline-start" /> Back to estimator</button>
         </header>
@@ -617,8 +616,7 @@ function App() {
       <div className="app-shell">
         <header className="topbar">
           <a className="brand" href="/" aria-label="Failure Folks Academy home" onClick={(event) => { event.preventDefault(); navigate('estimator') }}>
-            <span className="brand-mark">FF</span>
-            <span><strong>Failure Folks</strong><small>Academy</small></span>
+            <img className="brand-logo" src="/brand/failure-folks-academy.png" alt="Failure Folks Academy, Training, Consulting, Technology Solutions" />
           </a>
           <div className="topbar-actions"><span className="admin-demo-badge">ADMIN DEMO · NOT SECURED</span><button className="ghost-button" onClick={() => navigate('estimator')}><ArrowRight data-icon="inline-start" /> Back to estimator</button></div>
         </header>
@@ -642,8 +640,7 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <a className="brand" href="/" aria-label="Failure Folks Academy home" onClick={(event) => { event.preventDefault(); navigate('estimator') }}>
-          <span className="brand-mark">FF</span>
-          <span><strong>Failure Folks</strong><small>Academy</small></span>
+          <img className="brand-logo" src="/brand/failure-folks-academy.png" alt="Failure Folks Academy, Training, Consulting, Technology Solutions" />
         </a>
         <div className="topbar-actions">
           <span className="saved-badge"><span className="live-dot" /> No sign-in required</span>
